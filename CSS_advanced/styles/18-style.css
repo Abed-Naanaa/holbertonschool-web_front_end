@@ -2,9 +2,9 @@
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 0.4rem;
+  --nav-item-letter-spacing: 0.04rem; /* 4% of root element (assuming 1rem = 1 root element) */
   --nav-item-display: inline-block;
-  --nav-item-margin: 3rem 0 0 0;
+  --nav-item-margin: 0 0 3rem 0; /* top right bottom left */
   --nav-item-link-hover: var(--color-primary);
 }
 
